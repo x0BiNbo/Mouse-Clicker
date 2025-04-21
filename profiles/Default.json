@@ -1,0 +1,65 @@
+{
+  "profile_name": "Default",
+  "click_area": {
+    "width": 10,
+    "height": 10,
+    "centered": true,
+    "x_offset": 0,
+    "y_offset": 0
+  },
+  "click_timing": {
+    "min_delay": 12.0,
+    "max_delay": 38.0,
+    "click_duration_mean": 80.0,
+    "click_duration_std_dev": 20.0,
+    "double_click_gap": 200
+  },
+  "click_options": {
+    "click_type": "Single",
+    "randomize_click_type": false,
+    "click_type_weights": [
+      [
+        "Single",
+        0.7
+      ],
+      [
+        "Double",
+        0.1
+      ],
+      [
+        "Right",
+        0.0
+      ],
+      [
+        "Middle",
+        0.0
+      ]
+    ]
+  },
+  "multi_area": {
+    "areas": [
+      [
+        {
+          "width": 200,
+          "height": 200,
+          "centered": false,
+          "x_offset": 20,
+          "y_offset": 20
+        },
+        1.0
+      ],
+      [
+        {
+          "width": 200,
+          "height": 200,
+          "centered": true,
+          "x_offset": 0,
+          "y_offset": 0
+        },
+        1.0
+      ]
+    ],
+    "selection_mode": "Random",
+    "enabled": true
+  }
+}
